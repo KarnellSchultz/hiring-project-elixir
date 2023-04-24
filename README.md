@@ -1,5 +1,17 @@
 # Reel - Hiring project for Elixir
 
+
+# Notes on my solution
+
+## Mindset
+
+I'm not a elixir expert and I did not want to spend all my time on learning conventions or the best way to do this or that thing within the language. My goal was to make the function work and do that by hacking the code together and learning along the way. 
+
+## Solution
+
+The idea for me was to use the `parse` function to orchestrate other helper functions. The helper functions are there to isolate logic and make the program more simple to test in isolation. Also the helper functions make this easier to change in the future. 
+
+
 ## Purpose
 
 As the next step in the interview process for the Senior Software Engineer job at Reel, we will ask you to complete this project. We will use your solution to the project to get a better understanding of your technical abilities and how you approach a technical challenge. Your solution will also be the starting point for our subsequent technical interview. The project is intended to be a small representation of the kind of work we do at Reel.
@@ -84,3 +96,5 @@ We focus on three main points in our evaluation:
 1. The output of the `parse/1` function is correct. That is, the timestamps, quantity, and metering_point_id of each consumption reading matches the corresponding reading in the input data. Further, the format of the output is as described in the previous section.
 2. How you solved the task. There are many ways to approach a task like this.
 3. Your reasoning about choosing this solution.
+
+
